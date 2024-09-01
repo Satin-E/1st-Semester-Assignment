@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navbar a:hover {
+    color: #e74c3c;
+}
+
+.signup-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.form-group {
+    flex: 1;
+    min-width: calc(50% - 15px);
+    margin-bottom: 15px;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signup-form input[type="date"],
+.signup-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.signup-form .terms {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-form .terms a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-form .terms a:hover {
+    text-decoration: underline;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.signup-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 600px) {
+    .form-group {
+        min-width: 100%;
+    }
+}
